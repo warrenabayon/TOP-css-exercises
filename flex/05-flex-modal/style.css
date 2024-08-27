@@ -67,3 +67,38 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* Solution */
+
+.modal {
+  padding: 15px;
+  display: flex;
+  gap: 15px;
+ 
+  /* flex-wrap: wrap; */
+}
+
+.icon {
+  flex-grow: 1;
+  flex-shrink: 0;
+  /* flex-basis: 42px; */
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-basis: 500px;
+}
